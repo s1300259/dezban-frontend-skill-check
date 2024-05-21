@@ -1,5 +1,7 @@
 <template>
   <div>
+    <div class="h-14 shadow flex jstify-center items-center>
+      <p class="body">
     <TodoButton />
   </div>
 </template>
@@ -13,5 +15,8 @@ export default Vue.extend({
   components: {
     TodoButton,
   },
+  data(){
+  }
+  
 })
 </script>
